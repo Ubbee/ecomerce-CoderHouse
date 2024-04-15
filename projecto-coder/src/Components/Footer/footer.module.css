@@ -24,3 +24,7 @@ footer ul li a:hover {
     color: rgb(201, 201, 201);
 
 }
+footer a img{
+    width: 100px;
+    margin-left: 20px;
+}

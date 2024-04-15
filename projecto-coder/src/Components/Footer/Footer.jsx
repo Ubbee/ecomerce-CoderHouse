@@ -3,8 +3,8 @@ import './footer.module.css'
 export const Footer = () => {
   return (
     <footer>
-        <h2>Titulo</h2>
-        <p>© 2024 Coderhouse, todos los derechos reservados.</p>
+        <a href=""><img src="./src/Components/Nav/img/logo.jpg" alt="iconoCarrito" /></a>
+        <p>© 2024 BikeShop, todos los derechos reservados.</p>
         <div>
             <ul>
                 <li><a href="">Link 1</a></li>
