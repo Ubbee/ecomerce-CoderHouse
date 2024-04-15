@@ -1,0 +1,15 @@
+.parrafo{
+    background-color: white;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 0px grey;
+    color: black;
+    font-family: monospace;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+.parrafo:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 15px 15px 15px 0px grey;
+    transition: 0.3s;
+}
