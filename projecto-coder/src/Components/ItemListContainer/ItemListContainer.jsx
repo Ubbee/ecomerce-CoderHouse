@@ -1,6 +1,5 @@
 import './itemListContainer.module.css'
 
-const propiedad = {id: 1, text: "Hola! Bienvenido!"}
 
 export const ItemListContainer = (props) => {
 
