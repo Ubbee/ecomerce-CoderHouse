@@ -1,0 +1,36 @@
+.item {
+    width: 250px;
+    border-radius: 4px;
+    border: 1px solid rgb(231, 231, 231);
+    margin: 20px;
+}
+
+.item img {
+    max-width: 100%;
+}
+
+.item div p{
+    padding: 40px; 
+    font-size: 1.1rem;
+    width: 300px;
+    color: black;
+}
+
+
+.item button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.item button:hover{
+    background-color: grey;
+}
+
+.item div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}

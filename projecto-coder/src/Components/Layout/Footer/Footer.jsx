@@ -3,7 +3,7 @@ import './footer.module.css'
 export const Footer = () => {
   return (
     <footer>
-        <a href=""><img src="./src/Components/Nav/img/logo.jpg" alt="iconoCarrito" /></a>
+        <a href=""><img src="./src/Components/Layout/Footer/img/logo.jpg" alt="iconoCarrito" /></a>
         <p>© 2024 BikeShop, todos los derechos reservados.</p>
         <div>
             <ul>
