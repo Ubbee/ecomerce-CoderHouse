@@ -13,7 +13,7 @@ function App(props) {
     <Routes>
       <Route path="/" element={<ItemListContainer />}/>
       <Route path='/cart' element={<Cart/>} />
-      <Route path='/category/:categoryId' element={<ItemListContainer />} />
+      <Route path="/category/:categoryId" element={<ItemListContainer />} />
       R
     </Routes>
     <Footer />

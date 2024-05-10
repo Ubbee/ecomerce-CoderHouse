@@ -1,15 +1,15 @@
 import styles from './itemListContainer.module.css'
 import { ItemList } from '../ItemList/ItemList'
-import { useFetch, getProductsByCategory } from '../../Hooks/useFetch'
+import { useFetch} from '../../Hooks/useFetch'
 import { Loading } from '../Loading/Loading'
 import { useParams } from 'react-router-dom'
 import { useState, useEffect } from "react";
 
 export const ItemListContainer = () => {
+    const { categoryId } = useParams();
 
-    const url = "https://fakestoreapi.com/products";
+    const url = categoryId ? `https://fakestoreapi.com/products/category/${categoryId}` : "https://fakestoreapi.com/products";
     const method = "GET";
-
 
     const { data, loading, error } = useFetch(url, method, null);
 

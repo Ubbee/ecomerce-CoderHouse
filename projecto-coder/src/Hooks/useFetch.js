@@ -33,6 +33,5 @@ export const useFetch = (url, method, body) => {
 
 
 
-
 // este hook sirve para ahorrarnos tiempo y que cuando lo llamen
 // muestre el contenido de la API
