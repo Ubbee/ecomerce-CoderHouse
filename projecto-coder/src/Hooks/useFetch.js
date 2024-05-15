@@ -6,6 +6,7 @@ export const useFetch = (url, method, body) => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
+        setLoading(true);
         const getData = fetch(url, {
             method: method,
             body: body,
@@ -27,6 +28,15 @@ export const useFetch = (url, method, body) => {
     return { data, loading, error };
 
 }
+
+/*export const getProductId = (productId) => {
+    const [data, setData] = useState([]);
+
+    return new Promise((resolve, reject) =>{
+        const product = productId.find
+    })
+}*/
+
 
 
 
