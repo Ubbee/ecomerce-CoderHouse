@@ -17,9 +17,9 @@ export const ItemDetailContainer = () => {
 
     return (
         <div className={styles.container}>
-           ${loading === true ?  <Loading /> : <ItemDetail producto={data} />}
+            {loading === true ? <Loading /> : <ItemDetail producto={data} />}
         </div>
-        
+
 
     )
 }

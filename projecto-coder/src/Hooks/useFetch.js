@@ -29,18 +29,5 @@ export const useFetch = (url, method, body) => {
 
 }
 
-/*export const getProductId = (productId) => {
-    const [data, setData] = useState([]);
-
-    return new Promise((resolve, reject) =>{
-        const product = productId.find
-    })
-}*/
-
-
-
-
-
-
 // este hook sirve para ahorrarnos tiempo y que cuando lo llamen
 // muestre el contenido de la API

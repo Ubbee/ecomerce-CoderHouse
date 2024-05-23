@@ -9,22 +9,10 @@
     max-width: 100%;
 }
 
-.item div p{
-    padding: 40px; 
-    font-size: 1.1rem;
-    width: 300px;
-    color: black;
-}
-
-
-.item button{
-    padding: 10px;
-    border-radius: 5px;
-    border: 0px;
-}
-
-.item button:hover{
-    background-color: grey;
+.item h1{
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .item div {
@@ -33,4 +21,19 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+}
+.pe{
+    margin-top: 15px;
+    padding: 10px;
+    color: white;
+    background-color: grey;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pe:hover{
+    background-color: rgb(212, 212, 212);
+    color: black;
+    transition: 0.1s;
 }

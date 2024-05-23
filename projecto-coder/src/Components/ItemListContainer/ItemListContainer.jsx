@@ -8,6 +8,8 @@ export const ItemListContainer = () => {
 
     const { categoryId } = useParams();
 
+
+
     const url = categoryId ? `https://fakestoreapi.com/products/category/${categoryId}` : "https://fakestoreapi.com/products";
     const method = "GET";
 

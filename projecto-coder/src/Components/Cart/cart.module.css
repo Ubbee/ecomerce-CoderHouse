@@ -1,4 +1,35 @@
-.cartt{
-    color: black;
-    text-align: center;
+
+.tabla{
+    width: 80%;
+    margin: 257px auto;
+    
 }
+
+.tabla tr td{
+    margin: 0;
+}
+
+.tabla th, .tabla td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+.tabla th{
+    background-color:grey;
+}
+
+
+.tabla td button{
+    background-color: red;
+    border: 0px;
+    padding: 5px;
+    border-radius: 3px;
+    color: white;
+}
+
+.tabla td button:hover{
+    transform: translateY(1px);
+    background-color: rgb(255, 65, 65);
+    transition: 0.1s;
+}
+
