@@ -7,8 +7,7 @@ export const CartWidget = () => {
 
     return (
         <div>
-            <Link to="/cart"><img src="./img/carritoCompras.png" alt="icono carrito" /></Link>
-            <a href=""></a>
+            <Link to="/cart">🛒</Link>
             <p>{totalQty}</p>
         </div>
     );

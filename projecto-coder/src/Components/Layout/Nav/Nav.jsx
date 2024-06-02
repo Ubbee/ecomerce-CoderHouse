@@ -6,7 +6,7 @@ export const Nav = () => {
     return (
         <header>
             <nav className={styles.background}>
-                <a href=""><img src="./src/Components/Layout/Nav/img/logo.jpg" alt="iconoCarrito" /></a>
+                <a href=""><img src="./src/Components/Layout/Footer/img/logo.jpg" alt="iconoCarrito" /></a>
                 <ul>
                     <li><Link to="/category/men's clothing">♂ Ropa<svg width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path fill="none" stroke="currentColor" d="M4.5 15L12 7.5L19.5 15" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"></path>

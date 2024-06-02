@@ -41,6 +41,9 @@ const CartContextProvider = ({ children }) => {
     const addToCart = (item, sum) => {
         setTotalQty(totalQty + sum);
         setTotalPrice(totalPrice + item.price * sum)
+
+        let newCart = [];
+
         if (isInCart(item.id)) {
             const newCart = cart.map((elem) => {
                 if (elem.id === item.id) {
