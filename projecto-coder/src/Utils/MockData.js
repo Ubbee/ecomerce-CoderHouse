@@ -1,2 +1,9 @@
 
-  
+
+export const MockData = () => {
+  return (
+    <>
+    
+    </>
+  )
+}

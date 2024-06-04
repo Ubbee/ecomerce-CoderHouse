@@ -8,6 +8,7 @@ import { Error } from './Components/Error/Error.jsx'
 import { ItemDetailContainer } from './Components/ItemDetailContainer/ItemDetailContainer.jsx'
 import { Layout } from './Components/Layout/Layout.jsx'
 import CartContextProvider from './context/CartContext.jsx'
+import { Home } from './Pages/Home/Home.jsx'
 
 function App(props) {
   return (
@@ -15,6 +16,7 @@ function App(props) {
       <BrowserRouter>
         <Routes>
           <Route element={<Layout />}>
+          <Route path="/addd" element={<Home />} />
             <Route path="/" element={<ItemListContainer />} />
             <Route path='/cart' element={<Cart />} />
             <Route path="/category/:categoryId" element={<ItemListContainer />} />

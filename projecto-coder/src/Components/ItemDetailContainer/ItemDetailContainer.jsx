@@ -21,22 +21,21 @@ export const ItemDetailContainer = () => {
         const refDoc = doc(productsCollection, ProductId);
 
         getDoc(refDoc)
-            .then((doc) => {
-                setProduct({ id: doc.id, ...doc.data() });
-                setLoading(false);
-            }).catch((error) => {
-                console.log(error);
-            })
+        .then((doc) => {
+            setProduct({ id: doc.id, ...doc.data() });
+            setLoading(false);
+        }).catch((error) => {
+            console.log(error);
+        })
 
 
     }, [ProductId])
 
+    console.log(product)
+
     return (
         <div className={styles.container}>
-            {loading === true ? <Loading /> : <ItemDetail producto={product} />}
+            {loading === true ? <Loading /> : <ItemDetail producto={product}  />}
         </div>
-
-
     )
 }
-

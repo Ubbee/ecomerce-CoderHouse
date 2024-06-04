@@ -6,10 +6,11 @@ export const ItemDetail = ({ producto }) => {
 
     const { addToCart } = useCartContext();
 
-    const handlleAddToCart = (cantItems) => {
+    const handleAddToCart = (cantItems) => {
         addToCart(producto, cantItems);
     };
 
+    
     return (
         <div className={styles.itemD}>
             <img src={producto.image} alt="" variant="top" />
@@ -17,7 +18,7 @@ export const ItemDetail = ({ producto }) => {
                 <h1>{producto.title}</h1>
                 <p>{producto.description}</p>
                 <p>{producto.price}</p>
-                <ItemCount handlleAddToCart={handlleAddToCart} />
+                <ItemCount handlleAddToCart={handleAddToCart} />
             </div>
         </div>
     )
