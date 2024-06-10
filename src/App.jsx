@@ -1,8 +1,5 @@
-
-import { Nav } from './Components/Layout/Nav/Nav.jsx'
-import { Footer } from './Components/Layout/Footer/Footer.jsx'
 import { ItemListContainer } from './Components/ItemListContainer/ItemListContainer.jsx'
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Cart } from './Components/Cart/Cart.jsx'
 import { Error } from './Components/Error/Error.jsx'
 import { ItemDetailContainer } from './Components/ItemDetailContainer/ItemDetailContainer.jsx'
