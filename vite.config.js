@@ -6,7 +6,8 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['sweetalert2', 'sweetalert2/dist/sweetalert2.min.css']
+      external: ['history', 'sweetalert2', 'sweetalert2/dist/sweetalert2.min.css' ]
+      
     }
   }
 })
